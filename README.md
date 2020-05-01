@@ -25,10 +25,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. How would you describe preprocessing to someone new to CSS?
-2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+    it’s a program run un the background that generates regular css. This program also add more logic to the language such adding nesting, variables function and more.
+
+2. What is your favorite concept in preprocessing? 
+    Nesting
+    What is the concept that gives you the most trouble?
+    Just more files to manage and remember too always to run the compiler first.
+
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+    A container used to store information for a later use. 
+
 4. What is the purpose of using functions in code?
+
+    A function is a group of code and statements which can be reused and passed to other function. 
+
+
 5. What is a JSON data?
+
+    A javascript indepedent language written  for sorting and exchanging data on the web. 
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -40,10 +56,10 @@ Follow these steps to set up your project:
 
 #### Git Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your Team Lead as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 
 #### Preprocessor Set up
 
