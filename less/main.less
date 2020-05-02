@@ -1,0 +1,119 @@
+// ******************//******************
+//                Hero Image
+// ******************//******************
+.hero {
+   .flexCenter(center,center);
+    
+        
+    img{
+        width: 90%;
+        margin: 0 auto;
+            // Responsive 
+            @media @mobile {
+                width: 95%
+            }
+    }
+
+    .hero-text {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    h1 {
+        color: white;
+        font-size: 3em;
+        font-weight: 500;
+            // Responsive 
+            @media (max-width: 650px){
+                font-size: 2rem;
+            }
+            // Responsive 
+            @media @mobile {
+                font-size: 1.8rem;
+            }
+    }
+
+    button {
+        margin-top: .5rem;
+        .ctaBtn(.8rem, black);
+            // Responsive 
+            @media @mobile {
+                padding: .2rem .8rem;
+            }
+    }
+}
+
+hr{
+    margin: 1.4rem 0;
+}
+
+.artists-container{
+  display: flex;
+            // Responsive 
+            @media @mobile {
+                flex-direction: column;
+            }       
+}
+
+
+// ******************//******************
+//                Artist Content
+// ******************//******************
+
+.artist {
+    flex: 1;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    
+
+  
+    img { 
+        border-radius: .5rem;
+        width: 80%;
+        max-width: 80%;
+        padding-top: 0;
+        opacity: 1;
+        transition: opacity .6s;
+    }
+
+    // Image :Hover
+
+    img:hover{
+        .imageOpacity(0.8)
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        margin: 1rem;
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: 300;
+    }
+   
+
+    .bio{
+        text-align: center;
+        padding-bottom: 3rem;
+        font-weight: 400;
+    }
+    
+    
+
+}
+.e{
+    margin-top: .2rem;
+}
+.i{
+    margin-top: .2rem;
+}
