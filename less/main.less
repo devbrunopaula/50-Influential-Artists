@@ -4,54 +4,22 @@
 .hero {
    .flexCenter(center,center);
     
-        
     img{
-        width: 90%;
+        width: 95%;
+        opacity: .9;
         margin: 0 auto;
             // Responsive 
             @media @mobile {
                 width: 95%
             }
     }
-
-    .hero-text {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        text-align: center;
-        max-width: 100%;
-    }
-
-    h1 {
-        color: white;
-        font-size: 3em;
-        font-weight: 500;
-            // Responsive 
-            @media (max-width: 650px){
-                font-size: 2rem;
-            }
-            // Responsive 
-            @media @mobile {
-                font-size: 1.8rem;
-            }
-    }
-
-    button {
-        margin-top: .5rem;
-        .ctaBtn(.8rem, black);
-            // Responsive 
-            @media @mobile {
-                padding: .2rem .8rem;
-            }
-    }
 }
+
 
 hr{
     margin: 1.4rem 0;
 }
+
 
 .artists-container{
   display: flex;
@@ -107,13 +75,15 @@ hr{
         padding-bottom: 3rem;
         font-weight: 400;
     }
-    
+    .e{
+        margin-top: 2rem;
+        @media (max-width: 600px){
+            margin-top: 1rem;
+            }
+    }
+    .i{
+        margin-top: .2rem;
+    }
     
 
-}
-.e{
-    margin-top: .2rem;
-}
-.i{
-    margin-top: .2rem;
 }

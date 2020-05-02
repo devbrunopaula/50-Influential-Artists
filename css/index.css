@@ -1,3 +1,6 @@
+.activeHover {
+  font-weight: 600;
+}
 html,
 body,
 div,
@@ -107,6 +110,11 @@ h3 {
   max-width: 1000px;
   margin: 0 auto;
 }
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
 @media ( max-width: 500px ) {
   .container {
     width: 95%;
@@ -124,16 +132,20 @@ header {
   }
 }
 header a {
-  color: #797A79;
+  color: #434343;
   font-size: 1.3rem;
   text-decoration: none;
   padding: 0 0.3rem;
   font-weight: 300;
+  cursor: pointer;
 }
 @media ( max-width: 500px ) {
   header a {
     font-size: 1.5rem;
   }
+}
+header a:hover {
+  font-weight: 600;
 }
 header .active {
   font-weight: 600;
@@ -144,51 +156,13 @@ header .active {
   align-items: center;
 }
 .hero img {
-  width: 90%;
+  width: 95%;
+  opacity: 0.9;
   margin: 0 auto;
 }
 @media ( max-width: 500px ) {
   .hero img {
     width: 95%;
-  }
-}
-.hero .hero-text {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  text-align: center;
-  max-width: 100%;
-}
-.hero h1 {
-  color: white;
-  font-size: 3em;
-  font-weight: 500;
-}
-@media (max-width: 650px) {
-  .hero h1 {
-    font-size: 2rem;
-  }
-}
-@media ( max-width: 500px ) {
-  .hero h1 {
-    font-size: 1.8rem;
-  }
-}
-.hero button {
-  margin-top: 0.5rem;
-  padding: 0.4rem 1.2rem;
-  border-radius: 0.2rem;
-  color: #858282;
-  font-size: 0.8rem;
-  border-color: none;
-  box-shadow: 0.1rem 0.1rem 4px black;
-}
-@media ( max-width: 500px ) {
-  .hero button {
-    padding: 0.2rem 0.8rem;
   }
 }
 hr {
@@ -235,9 +209,54 @@ hr {
   padding-bottom: 3rem;
   font-weight: 400;
 }
-.e {
+.artist .e {
+  margin-top: 2rem;
+}
+@media (max-width: 600px) {
+  .artist .e {
+    margin-top: 1rem;
+  }
+}
+.artist .i {
   margin-top: 0.2rem;
 }
-.i {
-  margin-top: 0.2rem;
+.hero .hero-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 100%;
+}
+.hero h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: 600;
+}
+@media (max-width: 650px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
+@media ( max-width: 500px ) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+}
+.hero button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.2rem;
+  color: #858282;
+  font-size: 0.8rem;
+  border-color: none;
+  box-shadow: 0.1rem 0.1rem 4px black;
+  cursor: pointer;
+}
+@media ( max-width: 500px ) {
+  .hero button {
+    padding: 0.2rem 0.8rem;
+  }
 }

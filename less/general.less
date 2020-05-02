@@ -19,15 +19,19 @@ h3 {
 
 
 // ******************//******************
-//         CONTAINER & WRAPPERS
+//         CONTAINERs & WRAPPERs
 // ******************//******************
 
 .container {
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
-    @media @mobile {
-        width: 95%
+        // Responsive 
+        @media (max-width: 600px){
+            width: 90%;
+        }
+        @media @mobile {
+            width: 95%
         }
     
 }
