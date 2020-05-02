@@ -107,11 +107,11 @@ Navigate to `index.js` and complete the MVP challenges. Note that you need to sc
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals, also listed in `index.js`, where applicable:
 
-* [ ] Use JavaScript to programmatically create HTML elements in the console and copy them to display all 20 artists on the page
-* [ ] Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order.
-* [ ] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example)
-* [ ] Add responsive breakpoints to your code by using media queries
-* [ ] Add CSS animations
+* [x] Use JavaScript to programmatically create HTML elements in the console and copy them to display all 20 artists on the page
+* [x] Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order.
+* [x] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example)
+* [x] Add responsive breakpoints to your code by using media queries
+* [x] Add CSS animations
 
 ## Resources
 
@@ -125,6 +125,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master
