@@ -1,0 +1,30 @@
+// ******************//******************
+//                Mixins
+// ******************//******************
+
+.flexCenter(@justify, @align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+ 
+
+.activeHover {
+    font-weight: 600;
+ }
+
+
+.ctaBtn(@fontSize, @color){
+    padding: .4rem 1.2rem;
+    border-radius: .2rem;
+    color:@ctaButtonColor;
+    font-size: @fontSize;
+    border-color: none;
+    box-shadow: .1rem .1rem 4px @color;
+    cursor: pointer;
+}
+
+.imageOpacity(@number){
+    opacity: @number;
+    
+}

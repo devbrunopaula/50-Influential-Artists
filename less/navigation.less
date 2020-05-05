@@ -1,0 +1,30 @@
+header{
+    .flexCenter(center,center);
+        padding: 3rem 0;
+
+    // Responsive 
+        @media @mobile {
+            padding: 1.5rem 0;
+        }
+
+   a{   
+       color: @mainFontColor;
+       font-size: 1.3rem;
+       text-decoration: none;
+       padding: 0 .3rem;
+       font-weight: 300;
+       cursor: pointer;
+       
+       // Responsive 
+            @media @mobile {
+                font-size: 1.5rem;
+            }
+    }
+    a:hover{
+        .activeHover();
+    }        
+
+   .active {
+       font-weight: 600;
+    }
+}

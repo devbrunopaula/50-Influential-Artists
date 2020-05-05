@@ -1,0 +1,89 @@
+// ******************//******************
+//                Hero Image
+// ******************//******************
+.hero {
+   .flexCenter(center,center);
+    
+    img{
+        width: 95%;
+        opacity: .9;
+        margin: 0 auto;
+            // Responsive 
+            @media @mobile {
+                width: 95%
+            }
+    }
+}
+
+
+hr{
+    margin: 1.4rem 0;
+}
+
+
+.artists-container{
+  display: flex;
+            // Responsive 
+            @media @mobile {
+                flex-direction: column;
+            }       
+}
+
+
+// ******************//******************
+//                Artist Content
+// ******************//******************
+
+.artist {
+    flex: 1;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    
+
+  
+    img { 
+        border-radius: .5rem;
+        width: 80%;
+        max-width: 80%;
+        padding-top: 0;
+        opacity: 1;
+        transition: opacity .6s;
+    }
+
+    // Image :Hover
+
+    img:hover{
+        .imageOpacity(0.8)
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        margin: 1rem;
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: 300;
+    }
+   
+
+    .bio{
+        text-align: center;
+        padding-bottom: 3rem;
+        font-weight: 400;
+    }
+    .e{
+        margin-top: 2rem;
+        @media (max-width: 600px){
+            margin-top: 1rem;
+            }
+    }
+    .i{
+        margin-top: .2rem;
+    }
+    
+
+}

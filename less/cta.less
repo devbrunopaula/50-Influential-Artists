@@ -1,0 +1,43 @@
+
+// ******************//******************
+//               CTA CONTENT
+// ******************//******************
+
+.hero {
+    
+ 
+     .hero-text {
+         position: absolute;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+         text-align: center;
+         max-width: 100%;
+     }
+ 
+     
+     h1 {
+         color: white;
+         font-size: 3em;
+         font-weight: 600;
+             // Responsive 
+             @media (max-width: 650px){
+                 font-size: 2rem;
+             }
+             // Responsive 
+             @media @mobile {
+                 font-size: 1.8rem;
+             }
+     }
+ 
+     button {
+         margin-top: .5rem;
+         .ctaBtn(.8rem, black);
+             // Responsive 
+             @media @mobile {
+                 padding: .2rem .8rem;
+             }
+     }
+ }
