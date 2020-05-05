@@ -205,15 +205,21 @@ const artists = [
 
 /* Task 1: Practice accessing data above by console.log-ing following items:
 
-(1) Name of the first artist in the array
+(1) Name of the first artist in the array*/
+
+ console.log(artists[0].name)
+/*
 (2) Bio of the third artist in the array */
 
+console.log(artists[2].bio)
 
-
-/* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and 
+/* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough.
+ Use an array method to fix this issue and 
 console.log() to check your work. */
 
-
+const newName = artists[8].name= 'Vincent Van Gogh'
+  artists.push(newName)
+    console.log(artists[8])
 
 /* Task 3: Create a function called `getArtistByIndex` that takes two arguments:
  *     (1) artists array
@@ -364,9 +370,9 @@ file if you'd like to see what that would look like. */
 
 
 function callBack(){
-    var myHTML = '';
+    let myHTML = '';
 
-    for (var i = 0; i < 50; i++) {
+    for (let i = 0; i < 50; i++) {
       myHTML += `
       <div>${i}</div>
       <div id="artist">
